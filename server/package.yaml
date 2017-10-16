@@ -21,6 +21,10 @@ dependencies:
 - text
 - uuid
 - wai
+- persistent
+- persistent-template
+- persistent-sqlite
+- monad-logger
 
 library:
   source-dirs: api
@@ -30,6 +34,7 @@ library:
   - Api.Server
   - Api.Example.Types
   - Api.Example.Handler
+  - Api.Models
   dependencies:
   - containers
   - data-default
@@ -44,6 +49,9 @@ library:
   - pretty-simple
   - postgresql-simple
   - random
+  - persistent
+  - persistent-template
+  - persistent-sqlite
 
 executables:
   app:

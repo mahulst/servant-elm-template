@@ -15,8 +15,10 @@ src/client/dist
 .DS_Store
 .env
 npm-debug.log.*
+.idea
 
 *.cabal
 
 client/static/app.js
 client/elm/Shared/Generated.elm
+client/dist
